@@ -1,0 +1,32 @@
+.diagrammes_diagramme-courbe {
+  background-color: var(--red);
+  margin: 0;
+  .title {
+    position: absolute;
+    height: 48px;
+
+    margin-top: 29px;
+    margin-left: 34px;
+    color: white;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+}
+
+.custom-tooltip-courbe {
+  height: 25px;
+  width: 39px;
+  left: 184px;
+  top: 102px;
+  border-radius: 0px;
+  background-color: white;
+  p {
+    font-family: 'Roboto';
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}

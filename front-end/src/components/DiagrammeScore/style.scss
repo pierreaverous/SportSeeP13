@@ -1,0 +1,73 @@
+//EMPTY SCORE USER (TRANSPARENT)
+#root
+  > div
+  > div.user
+  > div.user-bottom
+  > div.user-bottom-informations-left
+  > div.diagrammes
+  > div.diagrammes-item.diagrammes_diagramme-score
+  > div.recharts-responsive-container
+  > div
+  > svg
+  > g
+  > g
+  > g:nth-child(1)
+  > path {
+  fill: transparent;
+}
+
+.diagrammes_diagramme-score {
+  position: relative;
+  stroke-linejoin: round;
+}
+
+.title-score {
+  height: 24px;
+  width: 39px;
+  left: 30px;
+  top: 24px;
+  color: #20253a;
+  margin: 0;
+  position: absolute;
+  //   top: 2px;
+  //   left: 4px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.objectif {
+  height: 56px;
+  width: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 83px;
+  top: 107.168212890625px;
+  p {
+    margin: 0;
+  }
+  &-score {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #282d30;
+  }
+  &-score-texte {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #74798c;
+  }
+}

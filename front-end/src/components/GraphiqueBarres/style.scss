@@ -1,0 +1,46 @@
+.graphique {
+  background-color: var(--grey);
+  height: 320px;
+  min-width: 835px;
+  border-radius: 5px;
+
+  margin-bottom: 70px;
+  padding-top: 50px;
+  &-title {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #20253a;
+    position: relative;
+    left: 50px;
+  }
+}
+
+#root
+  > div
+  > div.user
+  > div.user-bottom
+  > div.user-bottom-informations-left
+  > div.graphique
+  > div
+  > div
+  > div.recharts-legend-wrapper {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.legend-item-0 {
+  margin-right: 45px !important;
+  // padding-bottom: 30px !important;
+}
+
+.recharts-surface {
+  margin-right: 20px !important;
+}

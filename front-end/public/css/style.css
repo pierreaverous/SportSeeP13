@@ -1,0 +1,61 @@
+.accueil {
+  margin-left: 109px;
+}
+
+.user {
+  margin-left: 109px;
+}
+
+.user-top {
+  margin-bottom: 100px;
+}
+
+.user-bottom {
+  display: flex;
+}
+
+.user-bottom-informations-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.user-bottom-informations-right {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.informations {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* FONTS */
+:root {
+  --red: #ff0101;
+  --black: #020203;
+  --grey: #fbfbfb;
+  --fullwidth: 100%;
+}
+
+html {
+  font-family: Roboto;
+}
+
+body {
+  margin: 0;
+}
+
+:visited {
+  color: black;
+}
+
+.footer-maincontent {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

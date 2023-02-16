@@ -1,0 +1,59 @@
+.user {
+  margin-left: 109px;
+}
+@media screen and (min-width: 1600px) {
+  .user {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.user-top {
+  margin-bottom: 100px;
+}
+.user-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+@media screen and (max-width: 1439px) {
+  .user-bottom {
+    flex-direction: column;
+  }
+}
+
+.user-bottom-informations-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 40px;
+  // width: 100%;
+}
+
+.user-bottom-informations-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .user-bottom-informations-right {
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  .energie-item {
+    margin-bottom: 50px;
+  }
+}
+
+.informations {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

@@ -1,0 +1,9 @@
+.diagrammes_diagramme-toile {
+  background-color: var(--dark-grey);
+}
+.recharts-polygon {
+  &:hover {
+    stroke: var(--grey);
+    fill: var(--grey);
+  }
+}

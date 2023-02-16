@@ -1,0 +1,34 @@
+.footer {
+  background-color: var(--black);
+  width: 117px;
+  min-height: 933px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  &-thumbs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 1024px;
+
+    border-radius: 6px;
+    &-item {
+      margin-top: 20px;
+    }
+  }
+  &-copyright {
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-bottom: 59px;
+  }
+}

@@ -1,0 +1,42 @@
+//fichier sass
+@use 'Accueil';
+@use 'User';
+
+/* FONTS */
+:root {
+  --red: #ff0101;
+  --black: #020203;
+  --dark-grey: #282d30;
+  --grey: #fbfbfb;
+  --fullwidth: 100%;
+}
+html {
+  font-family: Roboto;
+  width: auto;
+}
+
+body {
+  margin: 0;
+}
+:visited {
+  color: black;
+}
+
+.footer-maincontent {
+  display: flex;
+}
+
+.diagrammes {
+  // border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-item {
+    background-color: var(--grey);
+    height: 263px;
+    width: 258px;
+    // border: 1px solid red;
+    height: 263px;
+    border-radius: 5px;
+  }
+}
